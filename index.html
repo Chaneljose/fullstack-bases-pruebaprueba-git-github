@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIVAVVISION - Cámaras de Seguridad</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+nav{
+    background:#084298;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1558002038-1055907df827');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#28a745;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.section{
+    padding:50px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0d6efd;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.price{
+    color:#28a745;
+    font-size:1.4rem;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.contact{
+    background:white;
+    border-radius:10px;
+    padding:30px;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>MIVAVVISION</h1>
+    <p>Especialistas en Cámaras de Seguridad y Videovigilancia</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <h2>Protege tu hogar y negocio</h2>
+    <p>Cámaras IP, WiFi y Sistemas de Videovigilancia con la mejor tecnología.</p>
+    <a href="#productos" class="btn">Ver Productos</a>
+</section>
+
+<section class="section" id="productos">
+    <h2 class="section-title">Nuestros Productos</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f" alt="Cámara Cubo">
+            <div class="card-content">
+                <h3>Cámara Cubo Smart G103</h3>
+                <p>Resolución 3MP, audio bidireccional y detección de movimiento.</p>
+                <div class="price">Bs. 250</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" alt="Cámara Exterior">
+            <div class="card-content">
+                <h3>Cámara Exterior IP</h3>
+                <p>Visión nocturna, resistente al agua y monitoreo remoto.</p>
+                <div class="price">Bs. 390</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1558002038-1055907df827" alt="Kit DVR">
+            <div class="card-content">
+                <h3>Kit DVR 4 Cámaras</h3>
+                <p>Sistema completo para hogares y negocios.</p>
+                <div class="price">Bs. 1.250</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="beneficios">
+    <h2 class="section-title">¿Por qué elegirnos?</h2>
+
+    <div class="features">
+        <div class="feature-box">
+            <h3>📹 Alta Calidad</h3>
+            <p>Imágenes nítidas HD y Full HD.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>📱 Monitoreo Remoto</h3>
+            <p>Visualiza tus cámaras desde cualquier lugar.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🔒 Seguridad 24/7</h3>
+            <p>Protección permanente para tu hogar y negocio.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🛠 Soporte Técnico</h3>
+            <p>Asesoramiento e instalación profesional.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contacto">
+    <h2 class="section-title">Contáctanos</h2>
+
+    <div class="contact">
+        <form>
+            <input type="text" placeholder="Nombre completo" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono">
+            <textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit">Enviar Consulta</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MIVAVVISION - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
